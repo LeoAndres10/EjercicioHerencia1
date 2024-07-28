@@ -7,6 +7,10 @@ namespace EjercicioHerencia
 {
     public class Implementacion : Operaciones
     {
+
+        public double N1 { get; set; }
+        public double N2 { get; set; } 
+
         public override double Area(double b, double altura)
         {
             double area = (b * altura);
@@ -40,10 +44,10 @@ namespace EjercicioHerencia
         public void Imprimir()
         {
           
-            Console.WriteLine($"Sacar area: {Area}");
-            Console.WriteLine($"Elevar al cuadrado: {Cuadrado}");
-            Console.WriteLine($"Redondear: {Redondear}");
-            Console.WriteLine($"Sacar Raiz Cubica: {RaizCubica}");
+            Console.WriteLine($"Sacar area: {Area(N1,N2)}");
+            Console.WriteLine($"Elevar al cuadrado: {Cuadrado(N1)}");
+            Console.WriteLine($"Redondear: {Redondear(N1)}");
+            Console.WriteLine($"Sacar Raiz Cubica: {RaizCubica(N1)}");
 
 
 

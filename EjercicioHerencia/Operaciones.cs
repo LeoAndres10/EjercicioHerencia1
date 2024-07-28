@@ -7,7 +7,7 @@ namespace EjercicioHerencia
         {
 
         }
-
+   
        abstract public double Area(double b, double altura);
         
        abstract public double Cuadrado(double x);

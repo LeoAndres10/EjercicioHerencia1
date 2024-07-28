@@ -54,13 +54,13 @@ switch (opcion)
 	default:
 
 		Console.WriteLine("Opcion no valida");
-			break;
+		break;
 
-		
 
-		
 
-	
+
+
 }
+
 
 
